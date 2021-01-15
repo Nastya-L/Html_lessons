@@ -1,0 +1,150 @@
+.verh_panel {
+	background-color:#1E3E59;
+	color: #F0F0F2;
+	height: 50px;
+	display: flex;
+  	align-items: center;
+  	position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.verh_knopka, .skidki, .vhod, .korzina {
+	color: #F0F0F2;
+	margin: 5px 10px;
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.knopki {   /* Кнопки верхней панели*/
+	display: inline-block;
+    font-size: 20pt;
+
+
+}
+.logo {   /* Логотип*/
+	display: inline-block;   
+	width: 200px;
+}
+
+.knopki a {     /* Ссылки верхней панели*/
+	display: inline-block;
+	font-size: 20px;
+
+}
+
+.lot {
+	border: 2px outset #1E3E59; /* Параметры границы */
+    background: white; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    width: 185px;
+    height: 300px;
+    text-align: left; 
+    font-size: 13pt;
+    margin: 20px;  
+    display: inline-block;
+    position:relative;
+}
+
+ .lot_cena {
+	font-weight: bold; /* жирный шрифт*/
+	margin-top:30px;
+}
+
+.knopki_prav {
+	margin-left: auto;
+ 	margin-right: 0;
+	font-size: 15pt;
+
+}
+
+.seredina {  /*середина с товаром*/
+	background-color: #F0F0F2;
+	padding:20px;
+	padding-top: 70px;
+    height:auto;
+
+}
+
+button {
+	display: inline-block;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F0F0F2;
+	text-decoration: none;
+	user-select: none;
+	padding: .2em 1.2em;
+	outline: none;
+	border: 1px solid #3DD9AD;
+	border-radius: 2px;
+	background: #435C73;
+	transition: all .218s ease 0s;
+	margin-left: 20px;
+}
+
+button:hover {
+  background-color: #7790A6;
+  border: 1px solid #7790A6;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.vhod:hover {
+	background-color: #151826; 
+
+}
+
+.vhod {
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.niz_panel {
+	color: #F0F0F2;
+	background-color: #212226;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 15px 30px 10px; /* Поля вокруг текста */
+    width: auto;  /* Ширина слоя */
+    font-size: 15px;
+    height:250px;
+}
+
+.niz_panel a {
+	color: #F0F0F2;
+	
+}
+
+h4 {
+	margin: 0;
+}
+
+.help, .adress {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	float: right;
+}
+
+.help a, .adress a {	
+	margin: 3px 0 4px 15px;
+}
+
+.opisanie {
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+	width: 700px;
+
+}
+
